@@ -1,0 +1,58 @@
+.item{
+position: relative;
+text-align:center;
+width: 500px;
+height: 600px;
+padding-left: 20px;
+padding-top: 15px;
+background-color: #e5dfcd;
+border-radius: 20px;
+margin:50px auto;
+
+
+}
+/*label, input{
+
+position: relative;
+
+flex-direction: column;
+align-items: center;
+justify-content: center;
+display: inline-block;
+width: 35%
+}*/
+#hola{
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -85px;
+  margin-left: -75px;
+  flex-direction: column;
+  align-items: center;
+
+  display: inline-block;
+  font-size: 18px;
+}
+input{
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 25px;
+  background: #4091EC;
+  color: #fff;
+}
+input[type="submit"]:hover{
+background: ....................
+}
+label{
+  position: relative;
+  display: inline-block;
+
+  padding-top: 15px;
+}
+P{
+  color: blue;
+  margin-top: 85px;
+  font-size: 40px;
+}
