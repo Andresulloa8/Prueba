@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilos.css" type="text/css">
+  </head>
+  <body>
+    <div class="contenedor">
+      <form action="ingreso.php" method="POST" class="form">
+            <div class="form-header">
+              <h1 class="form-title">Formulario</h1>
+            </div>
+
+        <label for="nombre" class="form-label">Escriba su nombre</label>
+        <br>
+        <input type="text" name="nombre" class="form-input" placeholder="Nombre" required></br/>
+
+        <label for="apellido" class="form-label">Escriba su apellido</label>
+        <br>
+        <input type="text" name="apellido" class="form-input" placeholder="Apellido" required><br/>
+
+        <label for="nacionalidad" class="form-label">Nacionalidad</label>
+        <br>
+        <input type="text" name="nacionalidad" class="form-input" placeholder="Pais" required><br/>
+
+        <label for="ciudad" class="form-label">Ciudad</label>
+        <br>
+        <input type="text" name="ciudad" class="form-input" placeholder="Ciudad" required><br/>
+
+        <label for="correo" class="form-label">Correo electrónico</label>
+        <br>
+        <input type="email" name="correo" class="form-input" placeholder="Ejemplo@correo.com" required><br/>
+
+        <label for="telefono" class="form-label">telefono</label>
+        <br>
+        <input type="telefono" name="telefono" class="form-input" placeholder="Phone" required><br/>
+
+
+      <br>
+      <br>
+      <input type="submit" name="" value="Enviar" name="btn1" class="btn-submit">
+
+      <input type="submit" value="Página principal" onclick="location='http://localhost/index.html'" class="btn-submit"/>
+
+
+      </form>
+
+
+
+    </div>
+
+
+  </body>
+</html>
